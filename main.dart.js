@@ -81738,7 +81738,7 @@ return A.O($async$x9,r)}}
 A.LK.prototype={
 H(a){var s=null,r=$.aHz(),q=A.aA_(B.bD,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
 q=A.D_(A.ayZ(s,s,s,s,!0,B.bD,s,s,s,s,s,s,s,s,s,s,B.Xf,s,s),s,B.O,new A.tk(A.mZ(s,s,s,s,s,s,s,s,s,s,s,new A.U(300,50),s,B.bD,s,s,s,s,A.X(a).RG.r.bZ(B.i),s)),q,B.KF,B.Lh,B.cv,B.ZP,s)
-return new A.Ak(r,A.a0(["/",new A.a7k(),"/signUp",new A.a7l(),"/customerRegister",new A.a7m(),"/productAdd",new A.a7n(),"/categoryEdit",new A.a7o(),"/stockEdit",new A.a7p(),"/test",new A.a7q(),"/userSetting",new A.a7r()],t.N,t.Ab),"/",q,!1,s)}}
+return new A.Ak(r,A.a0(["",new A.a7k(),"/signUp",new A.a7l(),"/customerRegister",new A.a7m(),"/productAdd",new A.a7n(),"/categoryEdit",new A.a7o(),"/stockEdit",new A.a7p(),"/test",new A.a7q(),"/userSetting",new A.a7r()],t.N,t.Ab),"https://yutech23.github.io/stokDeploy/",q,!1,s)}}
 A.a7k.prototype={
 $1(a){return new A.qp(null)},
 $S:483}

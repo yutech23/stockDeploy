@@ -81738,7 +81738,7 @@ return A.O($async$x9,r)}}
 A.LK.prototype={
 H(a){var s=null,r=$.aHz(),q=A.aA_(B.bD,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
 q=A.D_(A.ayZ(s,s,s,s,!0,B.bD,s,s,s,s,s,s,s,s,s,s,B.Xf,s,s),s,B.O,new A.tk(A.mZ(s,s,s,s,s,s,s,s,s,s,s,new A.U(300,50),s,B.bD,s,s,s,s,A.X(a).RG.r.bZ(B.i),s)),q,B.KF,B.Lh,B.cv,B.ZP,s)
-return new A.Ak(r,A.a0(["/",new A.a7k(),"/stockDeploy/signUp",new A.a7l(),"/customerRegister",new A.a7m(),"/productAdd",new A.a7n(),"/categoryEdit",new A.a7o(),"/stokDeploy/stockEdit",new A.a7p(),"/test",new A.a7q(),"/userSetting",new A.a7r()],t.N,t.Ab),"/",q,!1,s)}}
+return new A.Ak(r,A.a0(["/",new A.a7k(),"/signUp",new A.a7l(),"/customerRegister",new A.a7m(),"/productAdd",new A.a7n(),"/categoryEdit",new A.a7o(),"/stockEdit",new A.a7p(),"/test",new A.a7q(),"/userSetting",new A.a7r()],t.N,t.Ab),"/",q,!1,s)}}
 A.a7k.prototype={
 $1(a){return new A.qp(null)},
 $S:483}
@@ -82244,7 +82244,7 @@ A.ao3.prototype={
 $1(a){var s=J.a7(a)
 if(J.d(s.h(a,"status"),"true")){$.XL().z_(0,"security_id",s.h(a,"id"))
 $.cp().x9(s.h(a,"id")).aM(0,new A.ao2(),t.P)
-A.cq(this.b,!1).it("/stokDeploy/stockEdit",t.X)}else this.a.e.dN(0,B.b7)},
+A.cq(this.b,!1).it("/stockEdit",t.X)}else this.a.e.dN(0,B.b7)},
 $S:499}
 A.ao2.prototype={
 $1(a){var s,r=$.XL(),q=a==null

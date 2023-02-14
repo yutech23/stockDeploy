@@ -111581,7 +111581,7 @@ o=A.aqY("https://github.com/DavBfr/dart_pdf")
 m.a.k(0,"/Producer",new A.v6(l,o,B.hu))
 h=new A.b3(Date.now(),!1).a2_()
 m.a.k(0,"/CreationDate",new A.v6(l,A.aqY("D:"+B.d.cW(B.b.j(A.bf(h)),4,"0")+B.d.cW(B.b.j(A.bp(h)),2,"0")+B.d.cW(B.b.j(A.cF(h)),2,"0")+B.d.cW(B.b.j(A.hH(h)),2,"0")+B.d.cW(B.b.j(A.ZH(h)),2,"0")+B.d.cW(B.b.j(A.ZI(h)),2,"0")+"Z"),B.hu))}s=4
-return A.q(A.aT_("/logo.png"),$async$mS)
+return A.q(A.aT_("logo.png"),$async$mS)
 case 4:g=a7
 s=5
 return A.q($.pY().a0f("/logo.svg"),$async$mS)

@@ -118344,7 +118344,7 @@ case"RouteCategoryEdit":j=h.ch
 if(j===$)j=h.ch=A.a([],r)
 i=h.c
 i.toString
-j.push(h.mB(i,B.Kt,B.Y6,"Kategori D\xfczenleme"))
+j.push(h.mB(i,B.aBo,B.Y6,"Kategori D\xfczenleme"))
 break
 case"RouteSale":j=h.ch
 if(j===$)j=h.ch=A.a([],r)
@@ -118368,7 +118368,7 @@ case"RouteCaseSnapshot":j=h.ch
 if(j===$)j=h.ch=A.a([],r)
 i=h.c
 i.toString
-j.push(h.mB(i,B.aBo,B.Yj,"Kasa Durum"))
+j.push(h.mB(i,B.Kt,B.Yj,"Kasa Durum"))
 break
 case"RouteCapital":j=h.ch
 if(j===$)j=h.ch=A.a([],r)
@@ -132245,8 +132245,8 @@ B.id=new A.ff(B.cT,B.p)
 B.aBl=new A.a_V("RouteCapital","/capital")
 B.aBm=new A.a_W("RouteCariCustomer","/cariCustomer")
 B.aBn=new A.a_X("RouteCariSupplier","/cariSupplier")
-B.aBo=new A.a_Y("RouteCaseSnapshot","/caseSnapshot")
-B.Kt=new A.a_Z("RouteCategoryEdit","/categoryEdit")
+B.Kt=new A.a_Y("RouteCaseSnapshot","/caseSnapshot")
+B.aBo=new A.a_Z("RouteCategoryEdit","/categoryEdit")
 B.aBp=new A.a00("RouteCustomerRegister","/customerRegister")
 B.rF=new A.Iv(0,"none")
 B.aBq=new A.Iv(1,"neglect")

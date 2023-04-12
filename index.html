@@ -13,14 +13,8 @@
 
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
-    
-    
-       <base href="https://erp.enisthetoptan.com/">
-      <base href="/">
-      <base href="https://erp.esnaficin.com/">
   -->
-
-  <base href="https://erp.esnaficin.com/">
+  <base href="http://erp.esnaficin.com/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -33,20 +27,17 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href=favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>stok_takip</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1126772764';
+    var serviceWorkerVersion = '3761615941';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-  <script>
-    var dartPdfJsVersion = "3.2.146";
-  </script>
 </head>
 <body>
   <script>
@@ -55,11 +46,12 @@
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
         }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
       });
     });
   </script>
